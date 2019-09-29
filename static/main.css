@@ -1,0 +1,44 @@
+body {
+  padding-top: 80px;
+  text-align: center;
+  font-family: monaco, monospace;
+  background: url('giphy.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2 {
+  display: inline-block;
+  background: #fff;
+}
+h1 {
+  font-size: 30px
+}
+h2 {
+  font-size: 20px;
+}
+span {
+  background: #fd0;
+}
+table, th, td {
+  border: 4px solid black;
+  border-collapse: collapse;
+  background:white;
+  margin: auto auto auto;
+  font-size: 20px;
+  padding: 10px;
+}
+th, td {
+  text-align: left;
+}
+.form {
+  max-width: 730px;
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  margin: 0 auto 50px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
